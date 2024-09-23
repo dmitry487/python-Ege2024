@@ -1,0 +1,1 @@
+def plos(a,b,s):return 1
