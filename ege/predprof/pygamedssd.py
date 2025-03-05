@@ -1,7 +1,7 @@
 import pygame
 import sys
 
-
+й
 WIDTH, HEIGHT = 300, 300
 LINE_COLOR = (23, 145, 135)
 BG_COLOR = (28, 170, 156)
