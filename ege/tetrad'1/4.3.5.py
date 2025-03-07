@@ -1,5 +1,4 @@
 import math
-
 def calculator(x, y, operation):
     """
     Вычисляет результат операции над двумя числами.
@@ -16,7 +15,6 @@ def calculator(x, y, operation):
         return x / y
     else:
         return "Неизвестная операция"
-
 def advanced_calculator(x, y):
   """Вычисляет дополнительные функции."""
   results = {
@@ -26,19 +24,13 @@ def advanced_calculator(x, y):
       "xy": x * y
   }
   return results
-
-
-
 x = float(input("Введите первое число (x): "))
 y = float(input("Введите второе число (y): "))
 op = input("Введите операцию (+, -, *, /): ")
-
 result = calculator(x, y, op)
-print(f"Результат операции {op}: {result}")
-
-
+print(f"Результат операции {op}: {result}")2
 advanced_results = advanced_calculator(x,y)
-print("\nДополнительные результаты:")
+print("Дополнительные результаты:")
 for func_name, result in advanced_results.items():
     print(f"{func_name}: {result:.4f}")
 

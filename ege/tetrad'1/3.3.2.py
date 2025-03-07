@@ -1,8 +1,7 @@
 basic_characteristics = [
-    "Пол",
-    "Возраст",
-    "Рост",
-    "Вес",
+    "Доброта",
+    "Креативность",
+    "Уникальность",
 ]
 
 print(basic_characteristics)
